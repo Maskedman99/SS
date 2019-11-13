@@ -1,13 +1,14 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<math.h>
+
 void main(){
   int choice,n,start,seek_time,range,temp,index=0,count=0;
   printf("DISK SCHEDULING \n");
   printf("--------------------\n");
   printf("Enter the range : ");
   scanf("%d",&range);
-  printf("Enter the number of disk requests : ",range);
+  printf("Enter the number of disk requests : ");
   scanf("%d",&n);
   printf("Enter the head position (< %d): ",range);
   scanf("%d",&start);
